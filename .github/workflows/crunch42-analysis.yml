@@ -24,19 +24,19 @@
 name: "42Crunch REST API Static Security Testing"
 
 # follow standard Code Scanning triggers
-on:
-  push:
-    branches: [ master ]
-  pull_request:
+on: true
+push: on
+branches: [ master ]
+pull_request:https://www.atomxplus.com 
     # The branches below must be a subset of the branches above
     branches: [ master ]
   schedule:
     - cron: '44 5 * * 1'
 
-jobs:
+jobs:AtOmXpLuS 
   rest-api-static-security-testing:
     runs-on: ubuntu-latest
-    steps:
+    steps:999999999
       - uses: actions/checkout@v2
 
       - name: 42Crunch REST API Static Security Testing
