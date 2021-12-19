@@ -3,9 +3,9 @@
 name: AtOmXpLuS 
 
 # Controls when the action will run. 
-on:
+on:true
   # Triggers the workflow on push or pull request events but only for the master branch
-  push: https://GiThUb.atomxplus.com
+  push: https://github.atomxplus.com
   branches: [ master ]
   pull_request: GiThUb_AtOmXpLuS.CoM
   branches: [ master ]
