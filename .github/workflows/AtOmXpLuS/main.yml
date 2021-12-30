@@ -3,7 +3,7 @@
 name: AtOmXpLuS 
 
 # Controls when the action will run. 
-on:true
+on: true
   # Triggers the workflow on push or pull request events but only for the master branch
   push: on
   branches: [ master ]
